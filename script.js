@@ -190,25 +190,25 @@ const materiData = [
 
 const teamData = {
   mentor: [
-    { nama: "Teh Raden Annisa", role: "Mentor", npm: "247006111010", kelas: "Mahasiswa", angkatan: "2024", linkedin: "https://www.linkedin.com/in/raden-annisa-dwi-mulyana-41221a40b?trk=contact-info" },
-    { nama: "Teh Cethy Ketrianur", role: "Mentor", npm: "247006111048", kelas: "Mahasiswa", angkatan: "2024", linkedin: "https:" }
+    { nama: "Teh Raden Annisa", role: "Mentor", npm: "247006111010", kelas: "Informatika A", angkatan: "2024", linkedin: "https://www.linkedin.com/in/raden-annisa-dwi-mulyana-41221a40b?trk=contact-info" },
+    { nama: "Teh Cethy Ketrianur", role: "Mentor", npm: "247006111048", kelas: "Informatika B", angkatan: "2024", linkedin: "https:" }
   ],
   ketua: [
-    { nama: "Salman Alfarisy Isnurdian", role: "Ketua", npm: "257006111031", kelas: "A", angkatan: "2025", linkedin: "https://www.linkedin.com/in/salman-alfarisy-isnurdian-906a69405?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" }
+    { nama: "Salman Alfarisy Isnurdian", role: "Ketua", npm: "257006111031", kelas: "Informatika A", angkatan: "2025", linkedin: "https://www.linkedin.com/in/salman-alfarisy-isnurdian-906a69405?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" }
   ],
   wakil: [
     { nama: "Rendi Maulana", role: "Wakil Ketua", npm: "257006111172", kelas: "F", angkatan: "2025", linkedin: "https://linkedin.com/in/rendi-maulana" }
   ],
   anggota: [
-    { nama: "Zaky Khoirullah", role: "Anggota", npm: "257006111028", kelas: "A", angkatan: "2025", linkedin: "https://www.linkedin.com/in/zaky-khoirullah-548346340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
-    { nama: "Linda Dwi Martianda", role: "Anggota", npm: "257006111087", kelas: "Manajemen A", angkatan: "2025", linkedin: " https://www.linkedin.com/in/linda-dwi-martianda-b008b5405" },
-    { nama: "Silpia Siti Pebriani", role: "Anggota", npm: "25700611116", kelas: "Manajemen C", angkatan: "2025", linkedin: "https://linkedin.com/in/irfan" },
-    { nama: "Ayudia Fasha", role: "Anggota", npm: "257006111138", kelas: "Manajemen B", angkatan: "2025", linkedin: "https://www.linkedin.com/in/ayudia-fasha-2239a6383?utm_source=share_via&utm_content=profile&utm_medium=member_android" },
-    { nama: "Arsha Diaz Raditya", role: "Anggota", npm: "257006111139", kelas: "Manajemen A", angkatan: "2025", linkedin: "https://www.linkedin.com/in/arsha-diaz-raditya-712624361?utm_source=share_via&utm_content=profile&utm_medium=member_android" },
-    { nama: "Ilallika Haikal Hikayat", role: "Anggota", npm: "257006111144", kelas: "Manajemen C", angkatan: "2025", linkedin: "https://linkedin.com/in/layla" },
-    { nama: "Rizky Aditya Putra Wiyatna", role: "Anggota", npm: "257006111149", kelas: "Manajemen B", angkatan: "2025", linkedin: "https://linkedin.com/in/ikhsan" },
-    { nama: "Nadhif Ali Zuhdi", role: "Anggota", npm: "257006111155", kelas: "Manajemen B", angkatan: "2025", linkedin: "https://www.linkedin.com/in/nadhif-ali-zuhdi-4927a3404?utm_source=share_via&utm_content=profile&utm_medium=member_android" },
-    { nama: "Muhammad Ramdhani Fathul Muttaqin", role: "Anggota", npm: "257006111216", kelas: "Manajemen B", angkatan: "2025", linkedin: "" }
+    { nama: "Zaky Khoirullah", role: "Anggota", npm: "257006111028", kelas: "Informatika A", angkatan: "2025", linkedin: "https://www.linkedin.com/in/zaky-khoirullah-548346340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
+    { nama: "Linda Dwi Martianda", role: "Anggota", npm: "257006111087", kelas: "Informatika C", angkatan: "2025", linkedin: " https://www.linkedin.com/in/linda-dwi-martianda-b008b5405" },
+    { nama: "Silpia Siti Pebriani", role: "Anggota", npm: "25700611116", kelas: "Informatika D", angkatan: "2025", linkedin: "https://linkedin.com/in/irfan" },
+    { nama: "Ayudia Fasha", role: "Anggota", npm: "257006111138", kelas: "Informatika E", angkatan: "2025", linkedin: "https://www.linkedin.com/in/ayudia-fasha-2239a6383?utm_source=share_via&utm_content=profile&utm_medium=member_android" },
+    { nama: "Arsha Diaz Raditya", role: "Anggota", npm: "257006111139", kelas: "Informatika A", angkatan: "2025", linkedin: "https://www.linkedin.com/in/arsha-diaz-raditya-712624361?utm_source=share_via&utm_content=profile&utm_medium=member_android" },
+    { nama: "Ilallika Haikal Hikayat", role: "Anggota", npm: "257006111144", kelas: "Informatika E", angkatan: "2025", linkedin: "https://linkedin.com/in/layla" },
+    { nama: "Rizky Aditya Putra Wiyatna", role: "Anggota", npm: "257006111149", kelas: "Informatika E", angkatan: "2025", linkedin: "https://linkedin.com/in/ikhsan" },
+    { nama: "Nadhif Ali Zuhdi", role: "Anggota", npm: "257006111155", kelas: "Informatika E", angkatan: "2025", linkedin: "https://www.linkedin.com/in/nadhif-ali-zuhdi-4927a3404?utm_source=share_via&utm_content=profile&utm_medium=member_android" },
+    { nama: "Muhammad Ramdhani Fathul Muttaqin", role: "Anggota", npm: "257006111216", kelas: "Informatika F", angkatan: "2025", linkedin: "" }
   ]
 };
 
