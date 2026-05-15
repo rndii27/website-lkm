@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LKM Knowledge Base</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-brand" onclick="showPage('home')">
+    <img src="assets/logo.png" alt="Logo LKM" class="nav-logo-img">
+    <span class="nav-title">Lead<span>In</span></span>
+  </div>
+
+  <div class="nav-links" id="nav-links">
+    <a onclick="showPage('home')" id="nav-home" class="active">Home</a>
+    <a onclick="showPage('materi')" id="nav-materi">Kumpulan Materi</a>
+    <a onclick="showPage('about')" id="nav-about">About Us</a>
+  </div>
+
+  <button class="mobile-toggle" onclick="toggleMobileMenu()" aria-label="Menu">
+    ☰
+  </button>
+</nav>
+
+<main>
+
+<div class="page active" id="page-home">
+  <section class="hero">
+    <div class="hero-bg-pattern"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span></span> Platform Rangkuman Materi LKM
+      </div>
+      <div class="hero-title-wrap">
+        <img src="assets/LogoLKMIF2.png" alt="Logo LKM" class="hero-side-logo">
+
+        <h1 class="hero-title">
+          <span class="highlight">Leadership Informatics</span>
+        </h1>
+      </div>
+      <p class="hero-desc">
+        Satu platform untuk semua rangkuman materi LKM — terstruktur, ringkas, dan mudah diakses. Belajar lebih efisien, tidak lagi membosankan.
+      </p>
+      <div class="hero-cta">
+        <button class="btn btn-primary" onclick="showPage('materi')">
+          📖 Tampilkan Materi
+        </button>
+        <button class="btn btn-outline" onclick="showPage('about')">
+          ℹ️ Tentang Kami
+        </button>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-num">5</span>
+          <div class="stat-label">Pertemuan</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">8</span>
+          <div class="stat-label">Pemateri</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">1</span>
+          <div class="stat-label">Tim Solid</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="why-section">
+    <div class="section-inner">
+      <div class="section-label">Mengapa Dibutuhkan?</div>
+      <h2 class="section-title">Urgensi LKM Knowledge Base</h2>
+      <p class="section-subtitle">
+        Materi LKM sering kali tersebar, sulit diakses kembali, dan disajikan dengan cara yang kurang menarik. Platform ini hadir sebagai solusi.
+      </p>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon">🗂️</div>
+          <h3>Terstruktur & Rapi</h3>
+          <p>Materi diorganisir per pertemuan dengan poin-poin penting yang mudah dipindai, bukan teks panjang yang melelahkan.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">⚡</div>
+          <h3>Akses Cepat</h3>
+          <p>Temukan materi yang dibutuhkan dalam hitungan detik. Accordion view membuat navigasi menjadi jauh lebih efisien.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🎯</div>
+          <h3>Fokus pada Inti</h3>
+          <p>Setiap materi disajikan dengan inti dan kesimpulan yang padat, membantu memahami esensi tanpa perlu membaca ulang semua.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🌐</div>
+          <h3>Kolaboratif</h3>
+          <p>Menghubungkan pemateri dan peserta dalam satu ekosistem yang terpusat, lengkap dengan profil dan latar belakang pemateri.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="page" id="page-materi">
+  <div class="page-header">
+    <h1>📚 Kumpulan Materi</h1>
+    <p>Pilih pertemuan di bawah ini untuk membaca rangkuman materi lengkapnya.</p>
+  </div>
+  <div class="materi-section">
+    
+    <div class="tabs-wrapper">
+      <button class="scroll-btn" onclick="scrollTabs('left')">❮</button>
+      
+      <div class="pertemuan-tabs" id="pertemuan-tabs"></div>
+      
+      <button class="scroll-btn" onclick="scrollTabs('right')">❯</button>
+    </div>
+
+    <div id="materi-display-area"></div>
+
+  </div>
+</div>
+
+<div class="page" id="page-about">
+  <div class="page-header">
+    <h1> About Us</h1>
+    <p>Kami adalah tim yang berkomitmen menghadirkan pengalaman belajar LKM yang lebih baik.</p>
+  </div>
+  <div class="about-section">
+    <div class="about-intro">
+      <h2>Tentang Platform Ini</h2>
+      <p>LeadIn (Leadership in Informatics) adalah platform berbasis web yang dibangun sebagai wujud dedikasi kelompok kami dalam menyelesaikan penugasan Latihan Kepemimpinan Mahasiswa (LKM). Lebih dari sekadar tugas, web ini berfungsi sebagai arsip interaktif yang merangkum proses belajar kami. Di sini, kamu bisa berkenalan langsung dengan anggota kelompok kami di balik layar, serta mengakses kumpulan materi, modul, dan wawasan krusial seputar kepemimpinan manajemen yang kami pelajari selama kegiatan berlangsung.</p>
+    </div>
+
+    <div id="about-team-container"></div>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  Dibuat dengan oleh Kelompok 12 LKM Jurusan Informatika  &nbsp;|&nbsp; <strong> Leadership Informatics</strong> &copy; 2026
+</footer>
+
+<div class="modal-overlay" id="modal-overlay" onclick="closeModalOutside(event)">
+  <div class="modal" id="modal-content"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
