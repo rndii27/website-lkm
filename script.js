@@ -168,37 +168,47 @@ const materiData = [
     judul: "Kekeluargaan",
     pemateri: "Annisa Essa",
     inti: [
-      "Kesehatan mental sama pentingnya dengan kesehatan fisik — keduanya saling mempengaruhi",
-      "Tanda-tanda burnout: kelelahan kronis, sinisme, penurunan efektivitas",
-      "Strategi resiliensi: growth mindset, support system yang kuat, dan self-compassion",
-      "Teknik mindfulness sederhana: body scan, breathing exercise, journaling harian"
+      "Kekeluargaan adalah hubungan yang dibangun dari ikatan emosional, bukan sekadar saling mengenal nama atau wajah.",
+      "Kekeluargaan tumbuh melalui kebersamaan, pengalaman bersama, dan rasa nyaman menjadi diri sendiri.",
+      "Kepercayaan menjadi dasar utama dalam membangun hubungan kekeluargaan.",
+      "Setiap individu dapat berbagi cerita, impian, dan perasaan tanpa takut dihakimi.",
+      "Kekeluargaan memungkinkan seseorang menjadi diri sendiri tanpa berpura-pura.",
+      "Dalam hubungan kekeluargaan, perbedaan pendapat dan konflik adalah hal yang wajar.",
+      "Sikap saling memaafkan, memahami, dan menerima menjadi kunci menjaga hubungan.",
+      "Kekeluargaan dibangun melalui keseimbangan antara memberi dan menerima.",
+      "Memberikan waktu, perhatian, dan kepedulian memperkuat hubungan antar anggota.",
+      "Meluangkan waktu bersama menjadi langkah awal membangun rasa kebersamaan.",
+      "Mendengarkan dan memahami satu sama lain meningkatkan kedekatan emosional.",
+      "Menjadi diri sendiri tanpa berpura-pura menciptakan hubungan yang tulus.",
+      "Kasih sayang dan dukungan timbal balik memperkuat rasa kekeluargaan.",
+      "Kekeluargaan yang kuat menciptakan lingkungan yang saling mendukung dan peduli."
     ],
-    kesimpulan: "Menjaga kesehatan mental adalah investasi jangka panjang yang memungkinkan kita berkarya secara optimal dan berkelanjutan."
+    kesimpulan: "Kekeluargaan terbentuk dari kepercayaan, kebersamaan, dan kepedulian yang tumbuh melalui hubungan yang tulus, saling memahami, serta saling mendukung dalam berbagai keadaan."
   }
 ];
 
 
 const teamData = {
   mentor: [
-    { nama: "Teh Raden Annisa", role: "Mentor", npm: "—", kelas: "Mahasiswa", angkatan: "2024", linkedin: "https://linkedin.com" },
-    { nama: "Teh Cethy Ketrianur", role: "Mentor", npm: "—", kelas: "Mahasiswa", angkatan: "2024", linkedin: "https:" }
+    { nama: "Teh Raden Annisa", role: "Mentor", npm: "247006111010", kelas: "Mahasiswa", angkatan: "2024", linkedin: "https://www.linkedin.com/in/raden-annisa-dwi-mulyana-41221a40b?trk=contact-info" },
+    { nama: "Teh Cethy Ketrianur", role: "Mentor", npm: "247006111048", kelas: "Mahasiswa", angkatan: "2024", linkedin: "https:" }
   ],
   ketua: [
-    { nama: "Salman Alfarisy Isnurdian", role: "Ketua", npm: "257006111031", kelas: "A", angkatan: "2025", linkedin: "https://linkedin.com/in/salman-alfarisy-isnurdian" }
+    { nama: "Salman Alfarisy Isnurdian", role: "Ketua", npm: "257006111031", kelas: "A", angkatan: "2025", linkedin: "https://www.linkedin.com/in/salman-alfarisy-isnurdian-906a69405?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" }
   ],
   wakil: [
     { nama: "Rendi Maulana", role: "Wakil Ketua", npm: "257006111172", kelas: "F", angkatan: "2025", linkedin: "https://linkedin.com/in/rendi-maulana" }
   ],
   anggota: [
-    { nama: "Zaky Khoirullah", role: "Anggota", npm: "257006111028", kelas: "A", angkatan: "2025", linkedin: "https://linkedin.com/in/gilang" },
+    { nama: "Zaky Khoirullah", role: "Anggota", npm: "257006111028", kelas: "A", angkatan: "2025", linkedin: "https://www.linkedin.com/in/zaky-khoirullah-548346340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
     { nama: "Lina Dwi Martianda", role: "Anggota", npm: "257006111087", kelas: "Manajemen A", angkatan: "2023", linkedin: "https://linkedin.com/in/hasna" },
     { nama: "Silpia Siti Pebriani", role: "Anggota", npm: "25700611116", kelas: "Manajemen C", angkatan: "2023", linkedin: "https://linkedin.com/in/irfan" },
     { nama: "Ayudia Fasha", role: "Anggota", npm: "257006111138", kelas: "Manajemen B", angkatan: "2023", linkedin: "https://linkedin.com/in/jelita" },
-    { nama: "Arsha Diaz Raditya", role: "Anggota", npm: "257006111139", kelas: "Manajemen A", angkatan: "2023", linkedin: "https://linkedin.com/in/kevin" },
+    { nama: "Arsha Diaz Raditya", role: "Anggota", npm: "257006111139", kelas: "Manajemen A", angkatan: "2023", linkedin: "https://www.linkedin.com/in/arsha-diaz-raditya-712624361?utm_source=share_via&utm_content=profile&utm_medium=member_android" },
     { nama: "Ilallika Haikal Hikayat", role: "Anggota", npm: "257006111144", kelas: "Manajemen C", angkatan: "2023", linkedin: "https://linkedin.com/in/layla" },
     { nama: "Rizky Aditya Putra Wiyatna", role: "Anggota", npm: "257006111149", kelas: "Manajemen B", angkatan: "2023", linkedin: "https://linkedin.com/in/ikhsan" },
-    { nama: "Nadhif Ali Zuhdi", role: "Anggota", npm: "257006111155", kelas: "Manajemen B", angkatan: "2023", linkedin: "https://linkedin.com/in/ikhsan" },
-    { nama: "Muhammad Ramdhani Fathul Muttaqin", role: "Anggota", npm: "257006111216", kelas: "Manajemen B", angkatan: "2023", linkedin: "https://linkedin.com/in/ikhsan" }
+    { nama: "Nadhif Ali Zuhdi", role: "Anggota", npm: "257006111155", kelas: "Manajemen B", angkatan: "2023", linkedin: "https://www.linkedin.com/in/nadhif-ali-zuhdi-4927a3404?utm_source=share_via&utm_content=profile&utm_medium=member_android" },
+    { nama: "Muhammad Ramdhani Fathul Muttaqin", role: "Anggota", npm: "257006111216", kelas: "Manajemen B", angkatan: "2023", linkedin: "www.linkedin.com/in/rendi-maulana-493917405" }
   ]
 };
 
