@@ -4,7 +4,7 @@ const materiData = [
   {
     id: 1,
     judul: "Analisis dan Pengembangan Masyarakat",
-    pemateri: "Ace Hermawan",
+    pemateri: "A Ace Hermawan",
     inti: [
       "Dalam perspektif organisasi Tri Jaya, terdapat tiga tahapan penting yang meliputi : Perumusan, Implementasi, dan Evaluasi",
       "Penggunaan AI sangat membantu dalam pembuatan video karena mempercepat proses produksi visual, suara, dan editing. Namun AI tetap membutuhkan pengarahan manusia agar hasil sesuai tujuan. Dari tugas ini, kami memahami bahwa AI adalah alat bantu yang efektif jika digunakan secara bijak, kreatif, dan bertanggung jawab.",
@@ -37,7 +37,7 @@ const materiData = [
   {
     id: 3,
     judul: "Manajemen Aksi",
-    pemateri: "Defri Crisna Pramudi",
+    pemateri: "A Defri Crisna Pramudi",
     inti: [
       "Manajemen aksi adalah bentuk penyampaian pendapat oleh massa dengan teknik tertentu untuk menarik perhatian pihak terkait.",
       "Aksi dilindungi oleh Undang-Undang Nomor 9 Tahun 1998.",
@@ -66,7 +66,7 @@ const materiData = [
   {
     id: 4,
     judul: "Otoritas Informasi",
-    pemateri: "Ikmal Riza",
+    pemateri: "A Ikmal Riza",
     inti: [
       "Data menjadi elemen utama dalam kepemimpinan modern untuk mendukung pengambilan keputusan.",
       "Kekuatan kepemimpinan terletak pada kemampuan mengelola, mendistribusikan, dan menjaga kerahasiaan data.",
@@ -97,7 +97,7 @@ const materiData = [
   {
     id: 5,
     judul: "Retorika",
-    pemateri: "Abdillah",
+    pemateri: "A Abdillah",
     inti: [
       "Retorika adalah seni berbicara atau menulis secara efektif untuk memengaruhi audiens.",
       "Retorika digunakan untuk meyakinkan, menginspirasi, dan menyampaikan gagasan secara persuasif.",
@@ -120,7 +120,7 @@ const materiData = [
   {
     id: 6,
     judul: "Analisis Organisasi",
-    pemateri: "Fauzan",
+    pemateri: "A Fauzan",
     inti: [
       "Analisis organisasi adalah proses sistematis untuk memahami kondisi organisasi secara menyeluruh.",
       "Analisis dilakukan untuk menemukan masalah, potensi, dan langkah perbaikan organisasi.",
@@ -143,7 +143,7 @@ const materiData = [
   {
     id: 7,
     judul: "Pembangunan Organisasi & Pengembangan Organisasi",
-    pemateri: "Wildan Fauzi Agustian",
+    pemateri: "A Wildan Fauzi Agustian",
     inti: [
       "Pembangunan organisasi adalah proses terencana untuk meningkatkan efektivitas organisasi.",
       "Proses pembangunan mencakup perbaikan sistem, struktur, budaya, dan sumber daya manusia.",
@@ -166,7 +166,7 @@ const materiData = [
   {
     id: 8,
     judul: "Kekeluargaan",
-    pemateri: "Annisa Essa",
+    pemateri: "Teh Annisa Essa",
     inti: [
       "Kekeluargaan adalah hubungan yang dibangun dari ikatan emosional, bukan sekadar saling mengenal nama atau wajah.",
       "Kekeluargaan tumbuh melalui kebersamaan, pengalaman bersama, dan rasa nyaman menjadi diri sendiri.",
@@ -201,14 +201,14 @@ const teamData = {
   ],
   anggota: [
     { nama: "Zaky Khoirullah", role: "Anggota", npm: "257006111028", kelas: "A", angkatan: "2025", linkedin: "https://www.linkedin.com/in/zaky-khoirullah-548346340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
-    { nama: "Lina Dwi Martianda", role: "Anggota", npm: "257006111087", kelas: "Manajemen A", angkatan: "2023", linkedin: "https://linkedin.com/in/hasna" },
-    { nama: "Silpia Siti Pebriani", role: "Anggota", npm: "25700611116", kelas: "Manajemen C", angkatan: "2023", linkedin: "https://linkedin.com/in/irfan" },
-    { nama: "Ayudia Fasha", role: "Anggota", npm: "257006111138", kelas: "Manajemen B", angkatan: "2023", linkedin: "https://linkedin.com/in/jelita" },
-    { nama: "Arsha Diaz Raditya", role: "Anggota", npm: "257006111139", kelas: "Manajemen A", angkatan: "2023", linkedin: "https://www.linkedin.com/in/arsha-diaz-raditya-712624361?utm_source=share_via&utm_content=profile&utm_medium=member_android" },
-    { nama: "Ilallika Haikal Hikayat", role: "Anggota", npm: "257006111144", kelas: "Manajemen C", angkatan: "2023", linkedin: "https://linkedin.com/in/layla" },
-    { nama: "Rizky Aditya Putra Wiyatna", role: "Anggota", npm: "257006111149", kelas: "Manajemen B", angkatan: "2023", linkedin: "https://linkedin.com/in/ikhsan" },
-    { nama: "Nadhif Ali Zuhdi", role: "Anggota", npm: "257006111155", kelas: "Manajemen B", angkatan: "2023", linkedin: "https://www.linkedin.com/in/nadhif-ali-zuhdi-4927a3404?utm_source=share_via&utm_content=profile&utm_medium=member_android" },
-    { nama: "Muhammad Ramdhani Fathul Muttaqin", role: "Anggota", npm: "257006111216", kelas: "Manajemen B", angkatan: "2023", linkedin: "www.linkedin.com/in/rendi-maulana-493917405" }
+    { nama: "Linda Dwi Martianda", role: "Anggota", npm: "257006111087", kelas: "Manajemen A", angkatan: "2025", linkedin: " https://www.linkedin.com/in/linda-dwi-martianda-b008b5405" },
+    { nama: "Silpia Siti Pebriani", role: "Anggota", npm: "25700611116", kelas: "Manajemen C", angkatan: "2025", linkedin: "https://linkedin.com/in/irfan" },
+    { nama: "Ayudia Fasha", role: "Anggota", npm: "257006111138", kelas: "Manajemen B", angkatan: "2025", linkedin: "https://www.linkedin.com/in/ayudia-fasha-2239a6383?utm_source=share_via&utm_content=profile&utm_medium=member_android" },
+    { nama: "Arsha Diaz Raditya", role: "Anggota", npm: "257006111139", kelas: "Manajemen A", angkatan: "2025", linkedin: "https://www.linkedin.com/in/arsha-diaz-raditya-712624361?utm_source=share_via&utm_content=profile&utm_medium=member_android" },
+    { nama: "Ilallika Haikal Hikayat", role: "Anggota", npm: "257006111144", kelas: "Manajemen C", angkatan: "2025", linkedin: "https://linkedin.com/in/layla" },
+    { nama: "Rizky Aditya Putra Wiyatna", role: "Anggota", npm: "257006111149", kelas: "Manajemen B", angkatan: "2025", linkedin: "https://linkedin.com/in/ikhsan" },
+    { nama: "Nadhif Ali Zuhdi", role: "Anggota", npm: "257006111155", kelas: "Manajemen B", angkatan: "2025", linkedin: "https://www.linkedin.com/in/nadhif-ali-zuhdi-4927a3404?utm_source=share_via&utm_content=profile&utm_medium=member_android" },
+    { nama: "Muhammad Ramdhani Fathul Muttaqin", role: "Anggota", npm: "257006111216", kelas: "Manajemen B", angkatan: "2025", linkedin: "" }
   ]
 };
 
@@ -485,6 +485,47 @@ function closeModalOutside(event) {
 
 // ESC to close modal
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+let currentSlide = 0;
+const slides = document.querySelectorAll('.about-slide');
+let slideInterval;
+
+function showSlide(index) {
+  slides.forEach(slide => slide.classList.remove('active'));
+  slides[index].classList.add('active');
+}
+
+function changeSlide(direction) {
+  currentSlide += direction;
+
+  if (currentSlide >= slides.length) {
+    currentSlide = 0;
+  }
+
+  if (currentSlide < 0) {
+    currentSlide = slides.length - 1;
+  }
+
+  showSlide(currentSlide);
+  restartAutoSlide();
+}
+
+function autoSlide() {
+  currentSlide++;
+
+  if (currentSlide >= slides.length) {
+    currentSlide = 0;
+  }
+
+  showSlide(currentSlide);
+}
+
+function restartAutoSlide() {
+  clearInterval(slideInterval);
+  slideInterval = setInterval(autoSlide, 3000);
+}
+
+slideInterval = setInterval(autoSlide, 3000);
 
 
 // ===== INIT UTAMA =====
